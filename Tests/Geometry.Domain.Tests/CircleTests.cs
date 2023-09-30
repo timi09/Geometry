@@ -65,7 +65,7 @@ namespace Geometry.Tests
 
             float actual = circle.GetArea();
 
-            Assert.Equal(expected, actual, 0.000001);
+            Assert.Equal(expected, actual, Constants.Tolerance);
         }
 
         [Theory]
